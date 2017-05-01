@@ -14,6 +14,16 @@ def homepage():
 def hello(name):
     return "Hello, <strong>{}!</strong>".format(name)
 
+@app.route("/cage/<width>/<height>")
+def placecage(width=400, height=400):
+    return """
+    <p>
+        This is a hotlinked {w}x{h} picture of Nicolas Cage:
+    </p>
+    <img src="http://placecage.com/{w}/{h}" alt="placecage">
+    """.format(w=width, h=height)
+
+
 
 if __name__ == "__main__":
     app.run()
