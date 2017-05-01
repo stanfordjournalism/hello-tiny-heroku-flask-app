@@ -14,7 +14,7 @@ Assumes you have:
 1. [Installed Python 3.x via Anaconda on your computer](http://2017.compciv.org/guide/topics/python/installing-python-via-anaconda.html?highlight=anaconda), which should include Flask, among other things.
 2. Created a Heroku account
 3. Have Git installed (which you probably do if you installed the [Github Desktop app at some point](https://desktop.github.com/))
-4. Install the `gunicorn` web server library by running:
+4. Install the `gunicorn` web server library by running at your Terminal:
 
         $ pip install gunicorn
 
@@ -23,7 +23,11 @@ Assumes you have:
 ## Getting started with Heroku
 
 1. Install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-command-line)
-2. Go to this page on the Heroku website to make a new app: https://dashboard.heroku.com/new-app
+2. At your Terminal, run:
+
+    $ heroku login
+ 
+3. Go to this page on the Heroku website to make a new app: https://dashboard.heroku.com/new-app
 
 
 
