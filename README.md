@@ -1,8 +1,13 @@
 # Hello Really Tiny Flask App for Heroku
 
-An updated, kind-of simpler guide to getting a web app online:
+This repo is an abridged, updated, somewhat simpler version of this guide to getting a web app published on Heroku:
 
 http://www.compjour.org/lessons/flask-single-page/hello-tiny-flask-app/
+
+You can see a live-version here:
+
+https://compjour-2017-danfoo.herokuapp.com/ 
+
 
 Assumes you have:
 
@@ -17,14 +22,18 @@ Assumes you have:
 
 1. Install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-command-line)
 2. Go to this page on the Heroku website to make a new app: https://dashboard.heroku.com/new-app
-3. Pretend your app is named `compjour-2017-danfoo`
+
 
 
 ### Create a new project folder/Git repository
 
-1. Make a new directory, e.g. `my-first-heroku-flask`
+The example below pretends that your app on Heroku is named:  `compjour-2017-danfoo`
+
+
+
+1. Make a new directory in your own computer. It can be called anything, doesn't have to be what you named it on Heroku, e.g. `my-heroku-foo`
 2. Change into that directory from the command line, then run `git init`
-3. Then run: `heroku git:remote -a compjour-2017-danfoo`
+3. Then run: `heroku git:remote -a compjour-2017-danfoo`. This command points your local folder to the repo (remote folder) that Heroku uses to read code and deploy its app.
 
 
 
@@ -41,12 +50,17 @@ You'll need the following files that are in this repo (of which the README you'r
 
 Create those files manually. Copy the contents.
 
-Then
+Then run these shell commands:
 
 1. Run `git add .`
 2. Run `git commit -m 'first'`
 3. Run `git push heroku master`
 
+
+
+The above steps are the bare-bones way to get a trivial "web app" onto the Heroku service. Check out the fuller guide here, which covers more about what a Flask app/web app is:
+
+http://www.compjour.org/lessons/flask-single-page/hello-tiny-flask-app/
 
 
 
