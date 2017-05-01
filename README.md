@@ -79,7 +79,7 @@ http://www.compjour.org/lessons/flask-single-page/hello-tiny-flask-app/
 
 via Reade Levinson:
 
-https://rocky-headland-64655.herokuapp.com/
+https://sleepy-woodland-12710.herokuapp.com/
 
 The repo for the code: https://github.com/readelev/final-app
 
