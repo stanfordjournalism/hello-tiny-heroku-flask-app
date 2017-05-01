@@ -18,7 +18,9 @@ def hello(name):
 def placecage(width=400, height=400):
     templatetext = """
     <p>
-        This is a hotlinked {w}x{h} picture of Nicolas Cage:
+        This is a hotlinked {w}x{h} picture of Nicolas Cage
+        from
+        <a href="http//placecage.com">placecage.com</a>:
     </p>
     <img src="http://placecage.com/{w}/{h}" alt="placecage">
     """

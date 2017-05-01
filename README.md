@@ -6,7 +6,12 @@ http://www.compjour.org/lessons/flask-single-page/hello-tiny-flask-app/
 
 You can see a live-version here:
 
-https://compjour-2017-danfoo.herokuapp.com/ 
+homepage: https://compjour-2017-danfoo.herokuapp.com/ 
+
+`hello/` endpoint: https://compjour-2017-danfoo.herokuapp.com/hello/Stanford-loremipsum
+
+`cage/` endpoint: https://compjour-2017-danfoo.herokuapp.com/cage/600/200
+
 
 
 Assumes you have:
