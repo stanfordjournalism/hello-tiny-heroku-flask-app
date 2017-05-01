@@ -75,6 +75,11 @@ The above steps are the bare-bones way to get a trivial "web app" onto the Herok
 http://www.compjour.org/lessons/flask-single-page/hello-tiny-flask-app/
 
 
+# Example student app
 
+via Reade Levinson:
 
+https://rocky-headland-64655.herokuapp.com/
+
+The repo for the code: https://github.com/readelev/final-app
 
